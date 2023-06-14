@@ -1,0 +1,273 @@
+@import "_navbar";
+@import "_photo";
+@import "_card";
+@import "_mount";
+@import "_gear";
+@import "_leaf";
+@import "_clients";
+@import "_star";
+@import "_help";
+@import "_aperture";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+// .navbar {
+//     display: none;
+// }
+
+@media screen and (max-width:400px) {
+    .photo {
+        width: 100%;
+        height: 100vh;
+        background-image: url(/img/mountain.png);
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &__text {
+            width: 90%;
+            text-align: center;
+        }
+
+        &__menu {
+            display: flex;
+            align-items: center;
+
+            li {
+                margin-top: 80px;
+            }
+        }
+    }
+
+    .card {
+        background-image: url(/img/backcard.png);
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &__title {
+            padding-top: 150px;
+            text-align: center;
+        }
+
+        &__head {
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        &__one {
+            background-image: url(/img/w1.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            width: calc(50% - 16px);
+        }
+
+        &__two {
+            background-image: url(/img/w2.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            width: calc(50% - 16px);
+        }
+
+        &__three {
+            background-image: url(/img/w3.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            width: calc(50% - 16px);
+        }
+
+        &__four {
+            background-image: url(/img/w4.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            width: calc(50% - 16px);
+        }
+
+        &__content-text {
+            width: 100%;
+        }
+
+        &__content-title {
+            padding-top: 130%;
+        }
+
+        button {
+            margin-top: 100%;
+        }
+    }
+
+    .mount {
+        background-image: url(/img/mount.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+
+        &__title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        &__menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 10%;
+        }
+    }
+
+    .gear {
+        background-image: url(/img/gearbackground.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+
+        &__head {
+            text-align: center;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        &__title {
+            text-align: center;
+            width: 100%;
+        }
+
+        &__text {
+            text-align: center;
+            width: 99%;
+        }
+
+        &__img {
+            margin-left: 0%;
+            width: 200px;
+            height: 100vh;
+        }
+
+        button {
+            margin-left: 13%;
+        }
+    }
+
+    .clients {
+        background-image: url(/img/gearbackground.png);
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &__img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+
+    .star {
+        background-image: url(/img/starbackgr.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .help {
+        background-image: url(/img/helpbackgr.png);
+        background-repeat: no-repeat;
+        background-position: center;
+
+        button {
+            display: flex;
+            margin-left: 33%;
+        }
+    }
+
+    .aperture {
+        background-image: url(/img/aperturebackgr.png);
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &__ul {
+            display: flex;
+            margin-left: 0;
+
+            ul {
+                margin-right: 0;
+                gap: 10px;
+            }
+
+            li {
+                gap: 5px;
+            }
+        }
+
+        &__line {
+            width: 100%;
+        }
+
+        &__head-last {
+            text-align: center;
+        }
+
+        &__text-last {
+            text-align: center;
+        }
+
+        &__img {
+            text-align: center;
+            padding-right: 1%;
+        }
+
+        input {
+            margin-left: 0%;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            margin-top: 28%;
+            color: red;
+        }
+
+        &__add-text {
+            width: 100%;
+            text-align: center;
+        }
+
+        &__add {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__img-img {
+            margin-left: 0%;
+            margin-top: 20px;
+        }
+    }
+}

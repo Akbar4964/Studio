@@ -1,0 +1,47 @@
+.mount {
+    background-image: url(/img/mount.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    &__title {
+        padding-top: 260px;
+        display: flex;
+        justify-content: end;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__text {   
+        display: flex;
+        justify-content: end;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #C0C0C0;
+    }
+
+    &__menu {
+        display: flex;
+        padding-top: 204px;
+        justify-content: end;
+
+        li {
+            padding: 0 16px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+            color: #FFFFFF;
+            display: flex;
+        }
+    }
+}

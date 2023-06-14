@@ -1,0 +1,57 @@
+.photo {
+    background-image: url(/img/mountain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__head {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #C0C0C0;
+        padding-top: 461px;
+    }
+
+    &__title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 59px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #C0C0C0;
+        height: 80px;
+        width: 580px;
+        margin: 0 auto;
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 14px;
+        margin-right: 50px;
+        li {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+            color: #FFFFFF;
+            padding: 0 8px;
+        }
+    }
+}

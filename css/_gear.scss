@@ -1,0 +1,64 @@
+.gear {
+    background-image: url(/img/gearbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__content {
+        display: flex;
+    }
+
+    &__head {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #C0C0C0;
+    }
+
+    &__title {
+        margin-top: 6px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        margin-top: 14px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    &__img {
+        margin-left: 106px;
+    }
+
+    button {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.4px;
+        color: #000000;
+        background: #FFFFFF;
+        border-radius: 14px;
+        height: 42px;
+    }
+
+    &__main{
+        padding-top: 173px;
+    }
+}
